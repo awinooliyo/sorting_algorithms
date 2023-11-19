@@ -35,6 +35,5 @@ void print_array(const int *array, size_t size);
 
 
 /* Prototypes for Auxilliary/Helper Functions */
-void swap(int *a, int *b);
 
 #endif /* SORT_H */
