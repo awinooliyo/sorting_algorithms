@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
-* swap - Function that swaps two values.
+* swap_ints - Function that swaps two values.
 *
 * @a: the first value
 * @b: the second value
@@ -9,11 +9,11 @@
 */
 void swap_ints(int *a, int *b)
 {
-        int tmp;
+	int tmp;
 
-        tmp = *b;
-        *b = *a;
-        *a = tmp;
+	tmp = *b;
+	*b = *a;
+	*a = tmp;
 }
 
 
