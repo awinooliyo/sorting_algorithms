@@ -39,6 +39,9 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+
+
 /* Prototypes for the Print Functions */
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
